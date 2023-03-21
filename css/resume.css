@@ -175,6 +175,7 @@ a:hover, a:focus, a:active {
   color: #824027;
 }
 
-.new_span {
+.lang_text {
     font-size: 20px;
+    text-indent: 1rem;
 }
