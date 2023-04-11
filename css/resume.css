@@ -184,10 +184,21 @@ a:hover, a:focus, a:active {
   background-color: #f2f2f2;
   border: none;
   border-radius: 10px;
-  width: 100px;
-  height: 100px;
+  max-width: 10%;
+  max-height: 10%;
+  color: #868e96;
+  text-align: center;
+  padding: 0;
+  cursor: pointer;
+  overflow: hidden;
   color: #868e96;
   font-weight: bold;
+}
+
+.rounded-button:hover {
+  background-color: #868e96;
+  color: #f2f2f2;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 @media (min-width: 992px) {
