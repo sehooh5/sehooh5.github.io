@@ -193,6 +193,7 @@ a:hover, a:focus, a:active {
   overflow: hidden;
   color: #868e96;
   font-weight: bold;
+  font-size: 1.15rem;
 }
 
 .rounded-button:hover {
