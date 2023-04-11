@@ -186,13 +186,17 @@ a:hover, a:focus, a:active {
   border-radius: 3px;
   max-width: 10%;
   max-height: 8%;
-  color: #868e96;
   text-align: center;
   padding: 0;
   cursor: pointer;
   overflow: hidden;
   color: #868e96;
   font-weight: bold;
+  min-width: 50px;
+}
+
+.rounded-button span {
+  display: inline-block;
 }
 
 .rounded-button:hover {
