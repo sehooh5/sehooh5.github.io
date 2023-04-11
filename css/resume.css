@@ -183,9 +183,9 @@ a:hover, a:focus, a:active {
 .rounded-button {
   background-color: #f2f2f2;
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
   max-width: 10%;
-  max-height: 10%;
+  max-height: 5%;
   color: #868e96;
   text-align: center;
   padding: 0;
@@ -201,3 +201,9 @@ a:hover, a:focus, a:active {
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
+@media (min-width: 992px) {
+  .rounded-button {
+    width: 50px;
+    height: 30px;
+  }
+}
